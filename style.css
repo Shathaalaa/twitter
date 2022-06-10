@@ -1,0 +1,342 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    background-color: black;
+}
+header{
+    border-right: 1px solid rgb(52, 50, 50) ;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding : 10px 0px 10px 8%;
+    position: fixed;
+    width: 30%;
+    height: 100%;
+
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    height:70%;
+    width:100%;
+    justify-content: space-between;
+}
+.nav a{
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px 10px 10px 10px;
+    font-size: 1.4em; 
+    width: fit-content; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav a:hover{
+    background-color: rgb(53, 53, 55);
+    border-radius: 9999px;
+}
+.nav a i{
+    font-size: 25px;
+    padding-right: 10px;
+}
+.tweet{
+    color:aliceblue;
+    font-size: 25px;
+    padding : 10px 25px 10px 25px;
+    border-radius: 9999px;
+    background-color: rgb(89, 164, 231);
+    text-align: center;
+    margin-right: 5px;
+    font-weight: 550;
+}
+.tweet:hover{
+    background-color: rgba(89, 164, 231,0.9); 
+}
+.container{
+    width:100%;
+    height:30%;
+    
+   
+}
+.profile{
+    margin: 50% 5px 5px 10px;
+    padding:10px 8px 8px 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.profilename{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ img{
+    width: 45px;
+    border-radius: 100%;
+}
+.a{
+    color: rgb(254, 249, 249);
+    font-size: 25px;
+    font-weight: 500;
+}
+.b{
+    color: rgb(164, 151, 151);
+    font-size: 15px;
+   
+
+}
+.profile i{
+    font-size: 25px;
+    color: aliceblue;
+    padding :10px 8px 8px 0px;
+    
+}
+.profile:hover{
+   
+    background-color: rgb(53, 53, 55);
+    border-radius: 9999px;
+}
+main{
+    width:70%;
+    height:100%;
+    margin-left: 30%;
+}
+
+.main-feed{
+    width:60%;
+    border-right: 2px solid rgb(52, 50, 50);
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    font-size:30px;
+    color:aliceblue;
+    padding: 10px 5px 5px 10px;
+    position:sticky;
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    top:0;
+    border-bottom: 1px solid rgb(52, 50, 50);
+}
+.main-container{
+    display:flex;
+}
+.n2 li{
+    color:aliceblue;
+    list-style: none;
+    padding : 10px 10px 10px 10px;
+    color: rgb(93, 146, 195);
+}
+.new-tweet{
+    width:100%;
+    padding: 10px 5px 5px 10px;
+}
+
+.n2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+    
+}
+.n2 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.n1 input{
+    width:80%;
+    margin-left: 10px;
+    border: none;
+    color: aliceblue;
+    background-color: black;
+    font-size: 20px;
+    outline: none;
+
+}
+ .n2 li:hover{
+    background-color:rgb(53, 53, 55);
+    border-radius: 50% ;
+}
+.feed-tweet{
+    display: flex;
+    width:100%;
+    min-height:100px;
+    padding: 10px 5px 5px 10px;
+    border-top: 1px solid rgb(52, 50, 50);
+}
+.icons{
+    display: flex;
+    color: rgb(128, 134, 139);
+    justify-content: space-between;
+    padding-right:10px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:90%;
+    margin-left:10px;
+}
+.name-time{
+    display: flex;
+    justify-content: space-between;
+}
+.name-time a{
+    text-decoration: none;
+    
+}
+.name-time i{
+    color: aliceblue;
+}
+p{  font-size: 18px;
+    color: aliceblue;
+font-weight: 500;}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:0px 5px 30px 0px;
+} 
+.icons i:hover{
+    color: rgb(77, 119, 191);
+}  
+.side-feed{
+    margin:50px 5px 5px 40px;
+    width:40%
+}
+.side-feed input{
+    font-size: 18px;
+    
+    border-radius: 9999px;
+    border: none;
+    outline: none;
+    width: 80%;
+    padding :10px 5px 10px 15px;
+    background-color: rgba(27, 25, 25, 0.838);
+    color:white;
+    
+
+}
+.search{
+    
+    position:sticky;
+    top:0;
+    background-color: black;
+}
+.trend{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(27, 25, 25, 0.838) ;
+    width: 80%;
+    height:550px;
+    border-radius: 20px;
+}
+.trend h1{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 5px 10px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.items{
+    width: 100%;
+    padding:10px;
+}
+
+.category{
+    display: flex ;
+    justify-content: space-between;
+    color: rgb(79, 82, 84);
+   
+}
+.items p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 520;
+    padding-left:5px;
+}
+.items span{
+    color: rgb(79, 82, 84);
+    padding:5px;
+
+}
+.items:hover,.show-more:hover,.follow-people:hover{
+    background-color: rgb(40, 37, 37);
+    
+}
+.show-more{
+   
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding:20px 30px 15px 15px;
+}
+.show-more a{
+    text-decoration: none;
+    color: rgb(92, 128, 207);
+}
+.follow{
+    margin-top:20px;
+    width:80%;
+    height:335px;
+    background-color:rgba(27, 25, 25, 0.838) ;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.follow h2{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 5px 10px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.follow-people{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 10px 10px 10px;}
+.followbtn{
+    color:rgb(0, 0, 0);
+    background-color: rgb(246, 246, 246);
+    border-radius: 9999px;
+    width:75px;
+    height:35px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top:10px;
+    
+}
+.followbtn:hover{
+    background-color: rgb(194, 190, 190);
+}
+.follow-details{
+    margin-right:90px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.follow-people a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.follow-people a:hover{
+    text-decoration: underline;
+}
+
+.follow-details span{
+    color: rgb(77, 76, 76);
+}
+.liked {
+    color: rgb(196, 54, 134);
+}
+.retweeted{
+    color:rgb(80, 113, 59)
+}
