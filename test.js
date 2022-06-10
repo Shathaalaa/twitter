@@ -3,7 +3,15 @@ let tweets = [];
 const tweetBtn = document.querySelector("#tweet-btn");
 
 counter = 1;
-
+tweetBtn.addEventListener("click", () => {
+  console.log(99);
+  const tweetInput = document.querySelector("#tweet-input");
+  tweets.unshift({ id: counter, liked: false, text: tweetInput.value });
+  renderFeeds();
+  counter++;
+  tweetInput.value='';
+});
+console.log(tweetBtn,'tweetBtn')
 
 const liked = (id) => {
     tweets.forEach(element => {
@@ -64,11 +72,3 @@ let renderFeeds = () => {
   });
 };
 
-tweetBtn.addEventListener("click", () => {
-    console.log(99);
-    const tweetInput = document.querySelector("#tweet-input");
-    tweets.unshift({ id: counter, liked: false, text: tweetInput.value });
-    renderFeeds();
-    counter++;
-    tweetInput.value='';
-  });
